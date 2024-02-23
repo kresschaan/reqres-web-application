@@ -55,7 +55,7 @@ Endpoints are tested using Jest and Supertest for the APIs.
 Running the test:
 
 1. To execute the test open the terminal window.
-2. Type and run the command npm test.
+2. Type and run the command <code style="color : aqua">npm test</code>.
 
 ### How to Use
 
