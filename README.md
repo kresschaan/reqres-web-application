@@ -48,9 +48,14 @@ Backend
 4. Install dependencies using npm install or yarn install on the backend folder or directory.
 5. Type and run the command npm start in the terminal.
 
-Running Test
+### Testing
 
-1. To execute the test enter
+Endpoints are tested using Jest and Supertest for the APIs.
+
+Running the test:
+
+1. To execute the test open the terminal window.
+2. Type and run the command npm test.
 
 ### How to Use
 
