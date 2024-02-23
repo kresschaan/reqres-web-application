@@ -1,0 +1,124 @@
+.user-form {
+    margin-top: 15px;
+    padding: 15px;
+    max-height: 100%;
+    border-radius: 1rem;
+    margin: 10px;
+    margin-top: 100px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 2% 6% 5%;
+}
+
+.user-form .field-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.field {
+    margin-right: 20px;
+    height: 100px;
+}
+
+.field:last-child {
+    margin-right: 0px;
+    height: 100px;
+}
+
+.field input {
+    font-family: "Montserrat", sans-serif;
+    padding-left: 34px;
+    border-width: 0px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+        rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    color: #6d8299;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.field label {
+    color: #6d8299;
+    font-weight: 800;
+    margin-right: 20px;
+    padding-top: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.form-header {
+    font-size: 1.5rem;
+    color: #6d8299;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.button {
+    background-color: #6d8299;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    justify-content: center;
+    padding: 7px;
+    text-align: center;
+    white-space: nowrap;
+    width: 200px;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 5px;
+}
+
+.invalid {
+    border: 1px solid red;
+    border-width: 1px !important;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (min-width: 768px) {
+    .user-form {
+        margin: 55px;
+        padding: 2% 4%;
+    }
+
+    .field input {
+        width: 100%;
+    }
+
+    .button {
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .user-form {
+        padding: 2% 4%;
+    }
+
+    .field input {
+        width: 100%;
+    }
+
+    .button {
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .user-form .field-group {
+        flex-direction: row;
+    }
+
+    .field input {
+        width: 300px;
+    }
+
+    .button {
+        margin-left: 55px;
+    }
+}

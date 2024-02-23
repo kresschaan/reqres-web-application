@@ -1,0 +1,103 @@
+.user-outer-container {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    color: #6d8299;
+    gap: 1rem;
+}
+
+.flex > div {
+    margin: 0 1rem 2rem 1rem;
+    text-align: center;
+}
+
+.users-list-container {
+    text-align: center;
+}
+
+.user-inner-container {
+    max-height: 100%;
+    border-radius: 1rem;
+    margin: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 2% 4% 5%;
+}
+
+.user-inner-container:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.user-name {
+    padding-top: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.user-email {
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+    line-height: 1.5;
+    font-size: 0.9rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.skeleton-inner-container {
+    max-height: 100%;
+    border-radius: 1rem;
+    margin: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 2% 4% 5%;
+}
+
+.skeleton-name {
+    padding-top: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.skeleton-email {
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+    line-height: 1.5;
+    font-size: 0.9rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.skeleton-image-container {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+h1 {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    margin: 50px 0px;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+p {
+    color: #6d8299;
+}
+
+@media (min-width: 768px) {
+    .user-outer-container {
+        margin: 50px;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 1024px) {
+    .user-outer-container {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
