@@ -37,16 +37,16 @@ Frontend
 1. Clone or download the project from the Github repository (The frontend and backend code are contained in a single folder).
 2. Open the terminal window.
 3. Navigate to the frontend directory on the terminal.
-4. Install dependencies using npm install or yarn install on the frontend folder or directory.
-5. Type and run the command npm run dev in the terminal.
+4. Install dependencies using <code>npm install</code> or yarn install on the frontend folder or directory.
+5. Type and run the command <code>npm run dev</code> in the terminal.
 
 Backend
 
 1. Clone or download the project from the Github repository (The frontend and backend code are contained in a single folder).
 2. Open the terminal window.
 3. Navigate to the backend directory on the terminal.
-4. Install dependencies using npm install or yarn install on the backend folder or directory.
-5. Type and run the command npm start in the terminal.
+4. Install dependencies using <code>npm install</code> or yarn install on the backend folder or directory.
+5. Type and run the command <code>npm start</code> in the terminal.
 
 ### Testing
 
@@ -55,12 +55,13 @@ Endpoints are tested using Jest and Supertest for the APIs.
 Running the test:
 
 1. To execute the test open the terminal window.
-2. Type and run the command <code style="color : aqua">npm test</code>.
+2. Type and run the command <code>npm test</code>.
 
 ### How to Use
 
-1. Navigate to http://localhost:5173/. The web application should load.
-2. Start playing around and navigating the website.
+1. Navigate to </code>http://localhost:5173/</code>. The web application should load.
+2. To access the endpoints use base url of </code>http://localhost:3010</code> and add the succeeding access points.
+3. Start playing around and navigating the website.
 
 ## Acknowledgements
 
