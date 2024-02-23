@@ -32,6 +32,8 @@ Backend
 
 ### Installation
 
+## Run the backend before running the frontend 
+
 Frontend
 
 1. Clone or download the project from the Github repository (The frontend and backend code are contained in a single folder).
