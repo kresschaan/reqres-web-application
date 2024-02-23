@@ -4,7 +4,7 @@
 
 ## Description
 
-The ReqRes Web Application is about displaying a list of users from the ReqRes API and functionality to add a new user to the list.
+The ReqRes Web Application is about displaying a list of users from the ReqRes API and with the functionality of adding new users to the list.
 
 ### Project Structure:
 
@@ -38,7 +38,7 @@ Frontend
 2. Open the terminal window.
 3. Navigate to the frontend directory on the terminal.
 4. Install dependencies using npm install or yarn install on the frontend folder or directory.
-5. Run npm run dev.
+5. Type and run the command npm run dev in the terminal.
 
 Backend
 
@@ -46,4 +46,17 @@ Backend
 2. Open the terminal window.
 3. Navigate to the backend directory on the terminal.
 4. Install dependencies using npm install or yarn install on the backend folder or directory.
-5. Run npm start.
+5. Type and run the command npm start in the terminal.
+
+Running Test
+
+1. To execute the test enter
+
+### How to Use
+
+1. Navigate to http://localhost:5173/. The web application should load.
+2. Start playing around and navigating the website.
+
+## Acknowledgements
+
+Thank you to the hiring managers and lead developers who has taken the time to review this project and provide feedback. Grateful and appreciate the opportunity.
